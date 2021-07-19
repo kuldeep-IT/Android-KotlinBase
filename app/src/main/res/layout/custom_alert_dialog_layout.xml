@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_16sdp"
+            android:background="@drawable/shape_white_rounded"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:gravity="center_horizontal"
+                android:lineSpacingExtra="8sp"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                tools:text="Delete Profile" />
+
+            <TextView
+                android:id="@+id/tvMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_16sdp"
+                android:gravity="center"
+                android:lineSpacingExtra="8sp"
+                android:textColor="@color/colorGray"
+                android:textSize="16sp"
+                tools:text="Deleting this profile will remove &lt;Melanie’s Backpack&gt; and all associated data." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/tvButtonNegative"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:textSize="17sp"
+                    tools:text="@string/cancel" />
+
+                <Button
+                    android:id="@+id/tvButtonPositive"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/ok"
+                    android:textSize="17sp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

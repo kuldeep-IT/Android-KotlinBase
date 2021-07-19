@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Android-KotlinBase</string>
+    <string name="str_session_expried_msg">Session expired! Login Again</string>
+    <string name="str_something_went_wrong">Something went wrong</string>
+    <string name="relogin">Relogin</string>
+    <string name="str_no_internet">No Internet Connection</string>
+    <string name="str_no_internet_message">The Internet connection appears to be offline</string>
+    <string name="need_permission">Need Permission</string>
+    <string name="str_allow_permission">This app needs permission to use this feature. You can grant them in app settings.</string>
+    <string name="app_settings">App Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="please_wait">Please Wait...</string>
+    <string name="storage_not_found">Storage Not Found</string>
+    <string name="str_document_cant_download">Download Error</string>
+
+    <string name="str_moments_ago">moments ago</string>
+    <string name="str_in_the_future">in the future</string>
+    <string name="str_a_minute_ago">a minute ago</string>
+    <string name="str_minutes_ago">minutes ago</string>
+    <string name="str_an_hour_ago">an hour ago</string>
+    <string name="str_hours_ago">hours ago</string>
+    <string name="str_yesterday">yesterday</string>
+    <string name="str_days_ago">days ago</string>
+
+    <string name="txt_Welcome">Welcome,</string>
+    <string name="txt_signin_to_continue">Sign in to continue!</string>
+    <string name="txt_Email">E-mail</string>
+    <string name="txt_Password">Password</string>
+    <string name="txt_Login">Login</string>
+    <string name="txt_Registration">Registration</string>
+    <string name="txt_Create_Account">Create Account</string>
+    <string name="txt_Signup_to_start">Sign up to get started!</string>
+    <string name="txt_Name">Name</string>
+    <string name="txt_Contact_No">Contact No</string>
+    <string name="txt_Sign_up">Sign up</string>
+    <string name="txt_Home">Home</string>
+    <string name="txt_lets_enjoy">Let\'\s enjoy!</string>
+
+    <string name="valid_Password">Enter Valid Password.</string>
+    <string name="valid_Email">Enter Valid E-mail.</string>
+    <string name="valid_Contact_Digit">Contact No must be 10 digit.</string>
+    <string name="valid_Contact">Enter Valid Contact No.</string>
+    <string name="valid_Name">Enter Valid Name.</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

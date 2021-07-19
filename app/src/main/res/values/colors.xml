@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#87aecc</color>
+    <color name="colorPrimaryDark">#6002CC</color>
+    <color name="colorAccent">#FFFFFFFF</color>
+    <color name="colorProgress">#163CCE85</color>
+    <color name="toolbarColor">#7F7F7F</color>
+    <color name="black">#FF000000</color>
+    <color name="startBlack">#414141</color>
+    <color name="colorGray">#8A7474</color>
+    <color name="colorPurple">#6002CC</color>
+    <color name="blackTransparent">#AA1C1C1C</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="snackbar_success_color">#43C86F</color>
+    <color name="snackbar_error_color">#D30E15</color>
+</resources>
